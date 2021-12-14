@@ -24,6 +24,9 @@ npm i axios && npm i nodejs-file-downloader
 + discord_token - Your account Discord token.
 + guild_id - The ID of the server that we are going to download emojis from.
 + directory_output - The directory path of in where to save the downloaded emojis.
+
+## Inspired by
+[Discord-Emoji-Downloader](https://github.com/ThaTiemsz/Discord-Emoji-Downloader)
     
 ## License
 MIT © I2rys
