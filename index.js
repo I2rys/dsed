@@ -22,7 +22,7 @@
             authorization: args[0]
         }
     }).catch(()=>{
-        console.log("Invalid guild_id/discord_token.")
+        console.log("Invalid guildID/discord_token.")
         process.exit()
     })
     
@@ -42,7 +42,6 @@
     
         var emojiIndex = 0
         
-        download()
         async function download(){
             if(emojiIndex === emojis.length) return console.log("Downloading is finished.")
     
@@ -63,6 +62,8 @@
             emojiIndex++
             download()
         }
+
+        download()
     }else{
         console.log(`No emojis found in ${guild.data.name}.`)
     }
